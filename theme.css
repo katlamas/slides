@@ -1,39 +1,83 @@
 /* @theme custom */
 
-@import 'default';
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+@import 'default';
+
 :root {
-  background: #e6baf1;
+  background-color: #f6f3eb;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
 }
 
+h1, h2 {
+  color: #1f263f;
+}
+
 h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
-  font-style: normal;
+  font-style: black;
   font-size: 3rem;
-  color: #1f263f;
 }
 
-h2 {
+h2, h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  font-style: normal;
-  font-size: 1.8rem;
-  color: #1f263f;
+  font-style: bold;
+  font-size: 2rem;
 }
 
-/* h2, h3 {
-  text-align: center;
-} */
+h3 {
+  color: #d23728;
+}
 
-/* section:has(> svg.bespoke-marp-slide:nth-child(1)) {
+p, li {
+  font-size: 1rem;
+}
+
+ol li::marker {
   background-color: red;
-  li {
-  }
-} */
+}
 
+blockquote {
+  border-color: #e9c7c6;
+}
+
+blockquote p {
+  font-size: .8rem;
+}
+
+.lo {
+  padding: .1rem .6rem;
+  border-radius: 1rem;
+  display: inline-block;
+  margin: .2rem 0;
+}
+
+.one {
+  background-color: #d23728;
+  color: #fff;
+}
+
+.two {
+  background-color: #ff5757;
+  color: #fff;
+}
+
+.three {
+  background-color: #ff914d;
+}
+
+.four {
+  background-color: #ffbd59;
+}
+
+.five {
+  background-color: #ffde59;
+}
+
+.six {
+  background-color: #00bf63;
+}
