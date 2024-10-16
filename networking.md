@@ -145,7 +145,7 @@ A VPN creates a secure, encrypted connection over a public network like the inte
    - **Transport and Tunnel Modes**: IPsec can operate in two modes:
      - *Transport mode*: Encrypts only the payload of the IP packet.
      - *Tunnel mode*: Encrypts the entire IP packet, providing more robust security.
-     - **Example: AnyConnect with IKEv2** utilizes IPsec (specifically IKEv2) for VPN connections, offering additional features like built-in Dead Peer Detection and NAT-Traversal
+     - **Example: AnyConnect with IKEv2** utilizes IPsec  for VPN connections.
 ---
 
 **<span class="lo three">1.2.</span>** 
