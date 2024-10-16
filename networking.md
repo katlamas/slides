@@ -7,8 +7,7 @@ title: Slide1
 
 # Principles of Networking Computers 
 
-Catalina Polanco
-catalina.polanco@rhacc.ac.uk
+
 
 ---
 
@@ -43,7 +42,7 @@ c) Personal Area Network
 
 ---
 
-## Identify different computer networks and explain their uses
+## <span class="lo two">1.1.</span> Identify different computer networks and explain their uses
 
 - **Wide Area Network (WAN):** A WAN spans large geographical areas, connecting multiple smaller networks (LANs, MANs). It allows businesses to communicate across cities, countries, or even continents. The internet is the largest example of a WAN. 
   
@@ -59,11 +58,15 @@ c) Personal Area Network
 
 - **Personal Area Network (PAN):** A Personal Area Network (PAN) is a small network that interconnects technology devices within a limited range, typically just a few meters 2. It enables devices in a small office or home office (SOHO) environment to communicate and share resources, data, and applications 2.
 
-> https://www.cisco.com
+> https://www.ciscopress.com/articles/article.asp?p=2158215&seqNum=6
+
+---
+### Task 1 
+**Complete Assignment Question 1.1 Part 1A written description** 
 
 ---
 
-## Describe how a VPN works and the benefits they afford businesses
+## <span class="lo three">1.2.</span> How a VPN works and the benefits they afford businesses
 
 ---
 
@@ -90,30 +93,40 @@ c) Personal Area Network
 > [Source: Cisco VPN Overview](https://www.cisco.com)
 
 ---
-
-## 1.3 Advantages and disadvantages of wired network
-
----
-
-## Wired Networks (Ethernet)
-
-| **Advantages**       | **Disadvantages**      |
-|----------------------|------------------------|
-| **Security**: More secure due to physical connections, making them less susceptible to hacking. | **Flexibility**: Limited to fixed locations; not ideal for mobile devices. |
-| **Speed**: Generally faster and more reliable, with less interference and latency. | **Installation**: Requires physical cables, which can be complex and expensive to install. |
+### Task 2 
+**Complete Assignment Question 1.2 Part 1B written question and answer** 
 
 ---
 
+## <span class="lo four">1.3.</span> Advantages and disadvantages of wired network and wireless networks
+---
 
-## Key concepts
+
+## Key Concepts
+
+- **WPA2/WPA3**: Wireless security protocols that encrypt data to secure wireless communications.
+
+- **Bandwidth**: The maximum rate of data transfer across a network.
+
 
 - **Ethernet**: The standard technology used for wired networks.
 
 - **Latency**: The delay before a transfer of data begins following an instruction.
 
----
 
-## 1.3 Explain the advantages and disadvantages of wireless networks
+---
+### Wired vs. Wireless Debate
+**Group 1: Advocates for Wired Networks**
+**Group 2: Supporters of Wireless Networks**
+
+- Each group will be provided with a set of advantages and disadvantages of their assigned network type (next slides).
+- Use these points as a basis to prepare your arguments:
+
+    - Key benefits of the network type.
+    - Potential drawbacks.
+
+Feel free to include real-life examples or scenarios where your network type excels or faces challenges.
+
 
 ---
 
@@ -125,24 +138,24 @@ c) Personal Area Network
 | **Mobility**: Ideal for mobile devices like laptops and smartphones, providing network access anywhere within range of the Wi-Fi signal. | **Interference**: Signal degradation can occur due to physical obstructions, electronic interference, or network congestion. |
 
 ---
+## Wired Networks (Ethernet)
 
-## Key Concepts
+| **Advantages**       | **Disadvantages**      |
+|----------------------|------------------------|
+| **Security**: More secure due to physical connections, making them less susceptible to hacking. | **Flexibility**: Limited to fixed locations; not ideal for mobile devices. |
+| **Speed**: Generally faster and more reliable, with less interference and latency. | **Installation**: Requires physical cables, which can be complex and expensive to install. |
 
-- **WPA2/WPA3**: Wireless security protocols that encrypt data to secure wireless communications.
-
-- **Bandwidth**: The maximum rate of data transfer across a network.
+---
+### Debate
+- Choose a representative for each group that will defend their network type while also addressing the points raised by the opposing group.
+- Focus on providing evidence for your claims and actively responding to counterarguments.
 
 ---
 
-## Explain the advantages and disadvantages of wired and wireless networks
 
-**e.g. security, flexibility and BYOD (Bring Your Own Device)**
+### Task 3 
+**Complete Assignment Question 1.3 Part 1C written description** 
+
+
 
 ---
-
-**BYOD**: A policy where employees use personal devices (laptops, smartphones) to connect to the corporate network.
-
-| **Advantages**                               | **Disadvantages**                                  |
-|----------------------------------------------|---------------------------------------------------|
-| **Flexibility**: Employees use devices they are familiar with, increasing convenience and productivity. | **Security Risks**: Personal devices may introduce vulnerabilities, such as malware, if not properly managed. |
-| **Cost Savings**: Companies save on hardware expenses as employees provide their own devices. | **Network Security**: More difficult to enforce security policies and manage data access on non-company devices. |
