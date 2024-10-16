@@ -221,7 +221,11 @@ Can be accessed through web browsers, offering flexibility for accessing corpora
 - **IPsec VPN**:
 Requires a VPN client and provides strong encryption and security.
 
-![bg right:44%](img/ssl-ipsec.png)
+<div style="text-align: center;">
+
+![bg right:48%](img/ssl-vpn-02.png)
+
+</div>
 
 ---
 **<span class="lo three">1.2.</span>**
@@ -232,6 +236,28 @@ Requires a VPN client and provides strong encryption and security.
 - **Cost-effective**: VPNs eliminate the need for expensive leased lines by using the public internet securely. 
 
 > [Source: Cisco VPN Overview](https://www.cisco.com)
+
+---
+
+**<span class="lo three">1.2.</span>**
+## What a VPN does not do:
+
+-  **Provide complete anonymity**: Despite masking your IP address, a VPN doesn't guarantee complete anonymity .
+
+- **Ensure privacy if the VPN collects user data**: If a VPN provider collects user data, it could potentially compromise your privacy .
+
+- **Work in countries where VPNs are banned**: Using a VPN is illegal in some jurisdictions .
+
+---
+
+**<span class="lo three">1.2.</span>**
+## What a VPN does not do:
+
+-  **Protect against malware or phishing attacks**: VPNs don't shield users from malicious software or phishing attempts .
+
+-  **Allow bypassing restrictions in all cases**: Some online services still ban VPN users, preventing full access .
+
+- **Automatically enable security**: Users still need to exercise caution and use common sense when it comes to online safety .
 
 ---
 
