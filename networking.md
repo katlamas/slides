@@ -120,14 +120,7 @@ A VPN creates a secure, encrypted connection over a public network like the inte
 
 ---
 
-<div style="text-align: center;">
-
-![w:800](img/vpnsec.jpg)
-
-</div>
-
----
-
+**<span class="lo three">1.2.</span>** 
 ## Technologies Involved
 
 1. **IPsec (Internet Protocol Security)**:
@@ -138,6 +131,7 @@ A VPN creates a secure, encrypted connection over a public network like the inte
 
 ---
 
+**<span class="lo three">1.2.</span>** 
 ## Technologies Involved
 
 2. **SSL (Secure Sockets Layer)**:
@@ -146,6 +140,7 @@ A VPN creates a secure, encrypted connection over a public network like the inte
 
 --- 
 
+**<span class="lo three">1.2.</span>** 
 ## Technologies Involved
 
 3. **Authentication Mechanisms**:
@@ -153,30 +148,52 @@ A VPN creates a secure, encrypted connection over a public network like the inte
    
 4. **Encryption Protocols**:
    - VPNs rely on encryption standards like **AES-256** to secure data.
-   
+  
+---
+
+**<span class="lo three">1.2.</span>** 
+## Technologies Involved
+
 5. **VPN Clients**:
    - Users need a VPN client installed on their device (such as Cisco AnyConnect) to establish and manage VPN connections securely.
 
 ---
-
+**<span class="lo three">1.2.</span>**
 ## How Remote Access VPN Works
 
 1. **Initiation**: The user’s device (laptop, smartphone, etc.) initiates a connection to the corporate network via a VPN client.
 2. **Encryption & Authentication**: The VPN client encrypts data before sending it over the internet to the VPN server. The server, in turn, authenticates the client using passwords, digital certificates, or other methods.
+
+---
+**<span class="lo three">1.2.</span>**
+## How Remote Access VPN Works
+
 3. **Tunnel Creation**: Once authenticated, a secure tunnel is established between the user’s device and the VPN server. Data is securely transported through this tunnel, preventing external threats from accessing it.
 4. **Accessing Network Resources**: The user now has remote access to company resources (files, applications, internal systems) as though they were directly connected to the office network.
 
+<!---
+
+<div style="text-align: center;">
+
+![w:800](img/vpnsec.jpg)
+
+</div>
+
+--->
 ---
 
+**<span class="lo three">1.2.</span>**
 ## Types of Remote Access VPNs
 
-1. **IPsec VPN**:
-   - Requires a VPN client and provides strong encryption and security.
-2. **SSL VPN**:
-   - Can be accessed through web browsers, offering flexibility for accessing corporate applications.
+- **SSL VPN**:
+Can be accessed through web browsers, offering flexibility for accessing corporate applications.
+- **IPsec VPN**:
+Requires a VPN client and provides strong encryption and security.
+
+![bg right:44%](img/ssl-ipsec.png)
 
 ---
-
+**<span class="lo three">1.2.</span>**
 ## Key VPN Benefits for Businesses
 
 - **Security**: VPNs ensure data confidentiality by encrypting communication between remote users and company resources.
@@ -201,7 +218,7 @@ A VPN creates a secure, encrypted connection over a public network like the inte
 
 ## <span class="lo four">1.3.</span> Key Concepts
 
-- **WPA2/WPA3**: Wireless security protocols that encrypt data to secure wireless communications.
+- **WPA2 / WPA3**: Wireless security protocols that encrypt data to secure wireless communications.
 - **Bandwidth**: The maximum rate of data transfer across a network.
 - **Ethernet**: The standard technology used for wired networks.
 - **Latency**: The delay before a transfer of data begins following an instruction.
@@ -273,8 +290,9 @@ Feel free to include real-life examples or scenarios where your network type exc
 ---
 
 ### Debate
-- Choose a representative for each group that will defend their network type while also addressing the points raised by the opposing group.
-- Focus on providing evidence for your claims and actively responding to counterarguments.
+- Choose a representative for each group that will **defend their network type** while also **addressing the points** raised by the opposing group.
+
+- Focus on providing **evidence** for your claims and actively responding to **counterarguments**.
 
 ---
 
