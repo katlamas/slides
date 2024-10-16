@@ -39,6 +39,12 @@ c) Personal Area Network
 - **Network**: A group of interconnected devices that share resources.
 - **Topology**: The **physical** or **logical** arrangement of a network.
 
+<div style="text-align: center;">
+
+![](img/topology-05.jpg)
+
+</div>
+
 ---
 
 ## <span class="lo two">1.1.</span> Identify different computer networks and explain their uses
@@ -63,7 +69,7 @@ c) Personal Area Network
 
 ---
 
-- **Personal Area Network (PAN):** A Personal Area Network (PAN) is a small network that interconnects technology devices within a limited range, typically just a few meters 2. It enables devices in a small office or home office (SOHO) environment to communicate and share resources, data, and applications 2.
+- **Personal Area Network (PAN):** A Personal Area Network (PAN) is a small network that interconnects technology devices within a limited range, typically just a few meters. It enables devices in a small office or home office (SOHO) environment to communicate and share resources, data, and applications.
 
 > https://www.ciscopress.com/articles/article.asp?p=2158215&seqNum=6
 
@@ -95,8 +101,11 @@ Encryption is the process of converting plaintext (readable data) into ciphertex
 ## Tunneling
 
 VPNs use tunneling protocols to encapsulate the data in encrypted packets, securely transporting it across the internet.
+<div style="text-align: center;">
 
-![bg right:40%](img/vpn-02.jpeg)
+![w:600](img/vpn-05.jpeg)
+
+</div>
 
 ---
 
@@ -120,6 +129,14 @@ A VPN creates a secure, encrypted connection over a public network like the inte
 
 ---
 
+<div style="text-align: center;">
+
+![](img/vpn-00.png)
+
+</div>
+
+---
+
 **<span class="lo three">1.2.</span>** 
 ## Technologies Involved
 
@@ -128,7 +145,7 @@ A VPN creates a secure, encrypted connection over a public network like the inte
    - **Transport and Tunnel Modes**: IPsec can operate in two modes:
      - *Transport mode*: Encrypts only the payload of the IP packet.
      - *Tunnel mode*: Encrypts the entire IP packet, providing more robust security.
-
+     - **Example: AnyConnect with IKEv2** utilizes IPsec (specifically IKEv2) for VPN connections, offering additional features like built-in Dead Peer Detection and NAT-Traversal
 ---
 
 **<span class="lo three">1.2.</span>** 
@@ -137,8 +154,22 @@ A VPN creates a secure, encrypted connection over a public network like the inte
 2. **SSL (Secure Sockets Layer)**:
    - SSL-based VPNs are also widely used. They allow users to connect using their web browser without needing specific VPN software.
    - **SSL VPN** ensures encrypted connections between users and applications on the network, typically through secure web browsers.
+   - **Example: Clientless WebVPN** uses SSL to provide secure access to web resources without requiring a VPN client installation
 
 --- 
+
+| Feature | VPN (IPsec) | SSL VPN |
+|---------|-------------|---------|
+| Purpose | Secures entire network traffic | Focuses on securing individual web sessions |
+| Implementation | Implemented in network infrastructure, requires client software | Implemented on server side, accessible via web browsers |
+| Ease of Use | Generally more complex setup, harder for end-users | More user-friendly, can be accessed through familiar web browsers |
+| Performance | Typically faster | May be slower due to SSL/TLS encryption overhead |
+| Security Model | Provides comprehensive network-level security | Primarily focuses on securing application layer |
+| Use Cases | Full network access, site-to-site connections | Secure web application access, remote desktop sharing |
+| Flexibility | Can be more complex to configure and manage | Offers greater flexibility, easy integration into existing web-based applications |
+| Deployment | Often requires deeper network knowledge | Easier to deploy and manage, leverages standard web technologies |
+
+---
 
 **<span class="lo three">1.2.</span>** 
 ## Technologies Involved
