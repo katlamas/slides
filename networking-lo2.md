@@ -2,7 +2,7 @@
 theme: custom
 paginate: true
 marp: true
-title: Lorem Ipsum
+title: Networking Computers 2
 ---
 <!-- _paginate: skip -->
 # Computer Networks
