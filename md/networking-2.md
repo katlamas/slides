@@ -187,6 +187,15 @@ Lorem ipsum dolor sit amet consectetur adipiscing elit.
 
 ---
 
+**<span class="lo-23">2.3.</span>** Transfer files using network protocols: **Lorem ipsum**
+| Lorem ipsum  | Dolor sit  |
+|--------------|------------|
+| Lorem ipsum dolor sit amet, consectetur adipiscing elit.  | Lorem ipsum dolor sit amet, consectetur adipiscing elit.  |
+| Lorem ipsum dolor sit amet, consectetur adipiscing elit.  | Lorem ipsum dolor sit amet, consectetur adipiscing elit.  |
+| Lorem ipsum dolor sit amet, consectetur adipiscing elit.  | Lorem ipsum dolor sit amet, consectetur adipiscing elit.  |
+>Source: [cisco.com](https://cisco.com)
+---
+
 **<span class="lo-23">2.3.</span> Transfer files using network protocols**
 ## Comparing FTP and TCP/IP
 - Advantages and use cases for each protocol
