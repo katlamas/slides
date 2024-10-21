@@ -10,20 +10,20 @@ title: Lorem Ipsum
 ---
 <!-- _class: learning-objectives -->
 ## Learning Objectives
-<span class="lo-10">1.</span>&nbsp; Lorem
+<span class="lo-10">1.</span> <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
 
-<span class="lo-11">1.1</span> Ipsum
+<span class="lo-11">1.1</span> <span>Proin commodo sit amet ex eget fringilla. Curabitur lobortis quam purus, nec facilisis erat volutpat et.</span>
 
-<span class="lo-12">1.2</span> Dolor
+<span class="lo-12">1.2</span> <span>Maecenas id enim porttitor, rhoncus purus id, pulvinar enim. Sed tincidunt finibus nisi non finibus.</span>
 
-<span class="lo-13">1.3</span> Sit
+<span class="lo-13">1.3</span> <span>Praesent placerat dolor risus, ut ultricies lorem venenatis eu.</span>
 
-![bg right:44%](https://wallpapercave.com/wp/wp2754931.jpg)
+![bg right:44%](https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png)
 
 ---
 ## <span class="lo-11">1.1.</span>
 ## Learning Objective
-![bg right:44%](https://wallpapercave.com/wp/wp2754931.jpg)
+![bg right:44%](https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png)
 
 ---
 
@@ -38,7 +38,7 @@ title: Lorem Ipsum
 ## Concept
 - Lorem
 - Ipsum
-![bg right:44%](https://wallpapercave.com/wp/wp2754931.jpg)
+![bg right:44%](https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png)
 
 
 ---
@@ -46,7 +46,7 @@ title: Lorem Ipsum
 
 **<span class="lo-11">1.1.</span>**  Learning Objective: **Concept**
 <!-- Keep this line for correct layout -->
-![w:840](https://wallpapercave.com/wp/wp2754931.jpg)
+![w:840](https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png)
 <small>_Fig 1. Lorem ipsum_</small>
 
 ---

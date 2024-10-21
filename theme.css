@@ -109,23 +109,6 @@ table tr td {
 table tr:nth-child(odd) td {
   background-color: rgba(200, 200, 200, .2);
 }
-/*
-ol ol {
-  padding: 0;
-}
-
-li  {
-  list-style-type: decimal;
-  counter-increment: list-item;
-}
-
-li::marker {
-  content: counters(list-item, ".") ". ";
-} */
-
-section.lo-1 span {
-  background-color: #ff914d;
-}
 
 span {
   color: #fff;
@@ -159,6 +142,7 @@ section.learning-objectives p {
 section.learning-objectives p span:first-child {
   /* margin-right: 1rem; */
   padding:  .2rem .5rem;
+  min-width: 9%;
 }
 
 .c1 {
@@ -187,10 +171,6 @@ section.learning-objectives p span:first-child {
 .lo-23 {
   background-color: #026C7C;
   /* color: #234; */
-}
-
-.lo-05 {
-  background-color: #EEC643;
 }
 
 section p:has(>img) {
