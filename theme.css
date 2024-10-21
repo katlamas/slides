@@ -9,6 +9,7 @@
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
+  text-wrap: balance;
 }
 
 h1, h2, h3 {
