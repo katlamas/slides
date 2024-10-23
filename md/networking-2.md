@@ -60,18 +60,55 @@ Each layer communicates with the layer directly above and below it.
 
 ---
 
-**<span class="lo-21">2.1.</span> Setting up a computer network**
-## OSI Model layers
+**<span class="lo-21">2.1.</span>** Setting up a computer network: **OSI Model Layers**
 
-1. **Physical:** The actual hardware, like cables and switches.
-1. **Data Link:** Manages data transfer between two devices.
-1. **Network:** Handles routing, ensuring data gets to the right destination (e.g., IP address).
-1. **Transport:** Ensures reliable data delivery.
-1. **Session:** Manages the connection between two devices.
-1. **Presentation:** Translates data formats (e.g., encryption).
-1. **Application:** The programs or apps we use (e.g., web browsers).
+**1. Physical:** The actual hardware, like cables and switches.
+![w:720](../img/osi/osi-1.webp)
 
 ---
+
+**<span class="lo-21">2.1.</span>** Setting up a computer network: **OSI Model Layers**
+
+**2. Data Link:** Manages data transfer between two devices.
+![w:720](../img/osi/osi-2.webp)
+
+---
+
+**<span class="lo-21">2.1.</span>** Setting up a computer network: **OSI Model Layers**
+
+**3. Network:** Handles routing, ensuring data gets to the right destination (e.g., IP address).
+![w:720](../img/osi/osi-3.webp)
+
+---
+
+**<span class="lo-21">2.1.</span>** Setting up a computer network: **OSI Model Layers**
+
+**4. Transport:** Ensures reliable data delivery.
+![w:720](../img/osi/osi-4.webp)
+
+---
+
+**<span class="lo-21">2.1.</span>** Setting up a computer network: **OSI Model Layers**
+
+**5. Session:** Manages the connection between two devices.
+![w:720](../img/osi/osi-5.webp)
+
+---
+
+**<span class="lo-21">2.1.</span>** Setting up a computer network: **OSI Model Layers**
+
+**6. Presentation:** Translates data formats (e.g., encryption).
+![w:720](../img/osi/osi-6.webp)
+
+---
+
+**<span class="lo-21">2.1.</span>** Setting up a computer network: **OSI Model Layers**
+
+**7. Application:** The programs or apps we use (e.g., web browsers).
+![w:720](../img/osi/osi-7.webp)
+
+---
+
 **<span class="lo-21">2.1.</span>** Setting up a computer network: **OSI Model**
 
 ![w:720](../img/osi-model-2.png)
