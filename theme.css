@@ -12,10 +12,6 @@
   text-wrap: balance;
 }
 
-h1, h2, h3 {
-  text-wrap: balance;
-}
-
 h1, h2 {
   color: #03191E;
 }
@@ -24,7 +20,7 @@ h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-style: black;
-  font-size: 4rem;
+  font-size: 3.2rem;
 }
 
 h2 {
@@ -47,7 +43,6 @@ p, li {
 }
 
 ol li::marker {
-  /* background-color: red; */
   font-weight: 900;
 }
 
@@ -64,32 +59,6 @@ blockquote p {
   border-radius: 1rem;
   display: inline-block;
   margin: .2rem 0;
-}
-
-.one {
-  background-color: #d23728;
-  color: #fff;
-}
-
-.two {
-  background-color: #ff5757;
-  color: #fff;
-}
-
-.three {
-  background-color: #ff914d;
-}
-
-.four {
-  background-color: #ffbd59;
-}
-
-.five {
-  background-color: #ffde59;
-}
-
-.six {
-  background-color: #00bf63;
 }
 
 table {
@@ -116,10 +85,13 @@ span {
   font-weight: 900;
   letter-spacing: 1px;
   background-color: #999;
-  padding:  .2rem .75rem;
   border-radius: 200px;
   margin: .1rem;
   display: inline-block;
+}
+
+strong span {
+  padding:  .2rem .75rem;
 }
 
 h2 span {
