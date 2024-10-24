@@ -298,12 +298,6 @@ The most fundamental components include:
 
 ---
 
-**<span class="lo-21">2.1.</span> Setting up a computer network**
-### Task 2.1
-## Build and test a local network
-
----
-
 ## <span class="lo-22">2.2.</span>
 ## Install network software and manage accounts
 ![bg right:44%](img/network-os.png)
@@ -476,13 +470,18 @@ TCP/IP file transfer allows for fine-tuned control over the transfer process and
 | Reliability        | Ensures complete file transfer             | Guarantees data packet delivery and order  |
 
 <!-- >Source: [cisco.com](https://cisco.com) -->
-
 ---
 
 **<span class="lo-23">2.3.</span> Transfer files using network protocols**
-### Task 2.3
-## Transfer files using FTP
-Step by step cisco lab.
+### Task 2: FTP
+
+
+---
+
+**Setting up a computer network**
+### Assignment 2.1 & 2.3
+## Complete the assignment task 2.1 and 2.3
+Take screenshots of the process
 
 ---
 
