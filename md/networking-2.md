@@ -26,11 +26,6 @@ title: Networking Computers 2
 ![bg right:44%](../img/networking.jpg)
 
 ---
-
-### Starter activity
-## Human Packet Routing
-
----
 ## <span class="lo-21">2.1.</span>
 ## Setting up a computer network
 ![bg right:44%](../img/network.jpg)
@@ -170,6 +165,18 @@ The subnet mask is often written in a format like `255.255.255.0` or as a number
 **<span class="lo-21">2.1.</span>** Setting up a computer network: **Subnet Mask**
 
 ![w:840](../img/subnet-mask.webp)
+
+---
+
+**<span class="lo-21">2.1.</span>** Setting up a computer network: **Private and public IP addresses**
+
+![w:500](../img/private-public-ip.png)
+
+---
+
+**<span class="lo-21">2.1.</span>** Setting up a computer network: **Private and public IP addresses**
+
+![w:500](../img/private-public-ip-2.webp)
 
 ---
 
