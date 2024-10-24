@@ -7,19 +7,26 @@
 </head>
 <body>
     <h1>Slides</h1>
-    <ul id="list">
-        <li><a href="networking-2.html"><b>Principles of Networking Computers 2</b></a></li>
-    </ul>
+    <ul id="list"></ul>
     <script>
         const list = document.getElementById('list')
         const decks = [
-            'visual-programming',
-            'networking',
-            'networking-2',
+            {
+                slug: 'visual-programming',
+                label: 'Visual Programming'
+            },
+            {
+                slug: 'networking',
+                label: 'Networking Computers'
+            }
+            {
+                slug: 'networking-2',
+                label: 'Networking Computers 2'
+            }
         ]
         decks.forEach(deck => {
             const item = document.createElement('li')
-            item.innerHTML = `<a href="${deck}/${deck}.html">${deck}</a>`
+            item.innerHTML = `<a href="${deck.slug}/${deck.slug}.html">${deck.label}</a>`
             list.appendChild(item)
         })
     </script>
