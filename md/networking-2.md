@@ -168,6 +168,12 @@ The subnet mask is often written in a format like `255.255.255.0` or as a number
 
 ---
 
+**<span class="lo-21">2.1.</span> Setting up a computer network**
+## Private and Public IP addresses
+A **public IP address** is a unique address assigned to your network by your Internet Service Provider (ISP) that allows your devices to communicate over the internet, while a **private IP address** is used within your local network to identify devices and facilitate communication among them without being visible on the internet.
+
+---
+
 **<span class="lo-21">2.1.</span>** Setting up a computer network: **Private and public IP addresses**
 
 ![w:500](../img/private-public-ip.png)
