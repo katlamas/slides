@@ -12,6 +12,11 @@ title: Networking Computers 2
 
 ---
 
+### Recap
+## Complete the quiz on Teams
+
+---
+
 <!-- _class: learning-objectives -->
 ## Learning Objectives
 
@@ -472,3 +477,8 @@ TCP/IP file transfer allows for fine-tuned control over the transfer process and
 ### Task 3
 ## Transfer files using FTP
 Step by step cisco lab.
+
+---
+
+### Task 4:
+## Configure a VPN
