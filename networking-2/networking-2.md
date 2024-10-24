@@ -294,10 +294,16 @@ The most fundamental components include:
 ---
 
 **<span class="lo-21">2.1.</span> Setting up a computer network**
+### Task 1
+
+---
+
+**<span class="lo-21">2.1.</span> Setting up a computer network**
 ### Task 2.1
 ## Build and test a local network
 
 ---
+
 ## <span class="lo-22">2.2.</span>
 ## Install network software and manage accounts
 ![bg right:44%](img/network-os.png)
