@@ -146,6 +146,24 @@ For example, in the IP `192.168.1.10`, the network segment might be `192.168.1`,
 ---
 
 **<span class="lo-21">2.1.</span> Setting up a computer network**
+## Private and Public IP addresses
+A **public IP address** is a unique address assigned to your network by your Internet Service Provider (ISP) that allows your devices to communicate over the internet, while a **private IP address** is used within your local network to identify devices and facilitate communication among them without being visible on the internet.
+
+---
+
+**<span class="lo-21">2.1.</span>** Setting up a computer network: **Private and public IP addresses**
+
+![w:500](img/private-public-ip.png)
+
+---
+
+**<span class="lo-21">2.1.</span>** Setting up a computer network: **Private and public IP addresses**
+
+![w:500](img/private-public-ip-2.webp)
+
+---
+
+**<span class="lo-21">2.1.</span> Setting up a computer network**
 ## Subnet
 A subnet (short for sub-network) divides a larger network into smaller sections.
 
@@ -170,24 +188,6 @@ The subnet mask is often written in a format like `255.255.255.0` or as a number
 **<span class="lo-21">2.1.</span>** Setting up a computer network: **Subnet Mask**
 
 ![w:840](img/subnet-mask.webp)
-
----
-
-**<span class="lo-21">2.1.</span> Setting up a computer network**
-## Private and Public IP addresses
-A **public IP address** is a unique address assigned to your network by your Internet Service Provider (ISP) that allows your devices to communicate over the internet, while a **private IP address** is used within your local network to identify devices and facilitate communication among them without being visible on the internet.
-
----
-
-**<span class="lo-21">2.1.</span>** Setting up a computer network: **Private and public IP addresses**
-
-![w:500](img/private-public-ip.png)
-
----
-
-**<span class="lo-21">2.1.</span>** Setting up a computer network: **Private and public IP addresses**
-
-![w:500](img/private-public-ip-2.webp)
 
 ---
 
