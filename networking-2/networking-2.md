@@ -294,7 +294,7 @@ The most fundamental components include:
 ---
 
 **<span class="lo-21">2.1.</span> Setting up a computer network**
-### Task 1
+### Task 2.1
 ## Build and test a local network
 
 ---
@@ -361,8 +361,8 @@ Common examples include:
 ---
 
 **<span class="lo-22">2.2.</span> Install network software and manage accounts**
-### Task 2
-## Create Admin Accounts on a Router
+### Task 2.2
+## Create Admin and User logins on a router and test network tools
 
 ---
 ## <span class="lo-23">2.3.</span>
@@ -474,11 +474,11 @@ TCP/IP file transfer allows for fine-tuned control over the transfer process and
 ---
 
 **<span class="lo-23">2.3.</span> Transfer files using network protocols**
-### Task 3
+### Task 2.3
 ## Transfer files using FTP
 Step by step cisco lab.
 
 ---
 
-### Task 4:
+### Additional Task:
 ## Configure a VPN
