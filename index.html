@@ -1,20 +1,27 @@
-<h1>Slides</h1>
-<ul id="list">
-    <li><a href="networking.html"><b>Principles of Networking Computers</b></a></li>
-    <li><a href="networking-2.html"><b>Principles of Networking Computers 2</b></a></li>
-    <li><a href="visual-programming.html"><b>Visual Programing Tools</b></a></li>
-    <!-- <li><a href="#"><b>Slide2</b></a></li> -->
-</ul>
-<script>
-    const list = document.getElementById('list')
-    const decks = [
-        'visual-programming',
-        'networking',
-        'networking-2',
-    ]
-    decks.forEach(deck => {
-        const item = document.createElement('li')
-        item.innerHTML = `<a href="${deck}/${deck}.html">${deck}</a>`
-        list.appendChild(item)
-    })
-</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slides</title>
+</head>
+<body>
+    <h1>Slides</h1>
+    <ul id="list">
+        <li><a href="networking-2.html"><b>Principles of Networking Computers 2</b></a></li>
+    </ul>
+    <script>
+        const list = document.getElementById('list')
+        const decks = [
+            'visual-programming',
+            'networking',
+            'networking-2',
+        ]
+        decks.forEach(deck => {
+            const item = document.createElement('li')
+            item.innerHTML = `<a href="${deck}/${deck}.html">${deck}</a>`
+            list.appendChild(item)
+        })
+    </script>
+</body>
+</html>
