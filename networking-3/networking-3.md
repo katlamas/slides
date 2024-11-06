@@ -12,7 +12,7 @@ title: Networking Computers 3
 
 ---
 
-### Learning Objective 2 Recap
+### Recap
 ## Do the recap quiz on Teams
 
 ---
