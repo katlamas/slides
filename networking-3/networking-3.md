@@ -66,7 +66,9 @@ title: Networking Computers 3
 
 **Malware**
 ## Botnets
-A network of infected computers controlled by a malicious actor.
+A network of infected computers controlled by a malicious actor, often without the knowledge of the device owners. These infected devices, also known as "bots" or "zombies," are used collectively to carry out large-scale attacks, such as Distributed Denial of Service (DDoS) attacks, data theft, or spamming. Botnets are often managed through command-and-control (C&C) servers by cybercriminals to coordinate malicious activities.
+
+**Example**: The Mirai botnet infected IoT devices to conduct massive DDoS attacks, temporarily taking down popular websites.
 
 ---
 
@@ -74,7 +76,9 @@ A network of infected computers controlled by a malicious actor.
 
 **Malware**
 ## Spyware
-Software that secretly gathers information about a user's activities.
+Software that secretly gathers information about a user's activities without their consent. Spyware can track browsing habits, record keystrokes, and capture sensitive data such as login credentials and credit card numbers. This data is then sent to third parties, often leading to identity theft or financial loss.
+
+**Example**: Keyloggers, a type of spyware, can record everything a user types, capturing passwords and private messages.
 
 ---
 
@@ -82,7 +86,9 @@ Software that secretly gathers information about a user's activities.
 
 **Malware**
 ## Adware
-Software that automatically displays or downloads advertising material.
+Software that automatically displays or downloads advertising material, usually without the user's consent. Adware often tracks user behavior and displays targeted ads. Although some adware is relatively harmless, it can slow down devices, create pop-ups, and pose privacy risks by sharing user data with advertisers.
+
+**Example**: Some free software comes bundled with adware that generates pop-up ads and tracks user data for marketing purposes.
 
 ---
 
@@ -90,7 +96,9 @@ Software that automatically displays or downloads advertising material.
 
 **Malware**
 ## Ransomware
-Malware that encrypts files and demands payment for decryption.
+A type of malware that encrypts files on a victim's device, rendering them inaccessible. The attacker demands a ransom, usually in cryptocurrency, for the decryption key needed to restore access to the files. Ransomware attacks can target individuals, businesses, or even government entities, often resulting in significant financial and operational damage.
+
+**Example**: The WannaCry ransomware affected organizations worldwide, demanding payments for decrypting critical files.
 
 ---
 
@@ -98,7 +106,9 @@ Malware that encrypts files and demands payment for decryption.
 
 **Malware**
 ## Trojans
-Malware disguised as legitimate software to trick users.
+Malware disguised as legitimate software that tricks users into installing it. Once installed, Trojans can open backdoors for attackers, steal data, or install additional malicious software. Unlike viruses, Trojans do not self-replicate but rely on users to install them under the belief they are safe or useful applications.
+
+**Example**: A user downloads what appears to be an antivirus program, but it is actually a Trojan that steals sensitive data.
 
 ---
 
@@ -106,7 +116,9 @@ Malware disguised as legitimate software to trick users.
 
 **Malware**
 ## Worms
-Self-replicating malware that spreads across networks.
+Self-replicating malware that spreads across networks without user intervention. Worms exploit vulnerabilities in software or network protocols, allowing them to quickly infect many devices within a network. Unlike viruses, worms do not need to attach themselves to other programs to spread, making them particularly potent for large-scale network attacks.
+
+**Example**: The Morris worm, one of the first worms to spread via the internet, affected thousands of computers in the late 1980s.
 
 ---
 
@@ -114,9 +126,12 @@ Self-replicating malware that spreads across networks.
 
 **Malware**
 ## Rootkits
-Malware that provides unauthorized access to a computer system.
+Malware that provides unauthorized access to a computer system and conceals its presence or the presence of other malware. Rootkits can modify system files and settings, making them difficult to detect and remove. They allow attackers to maintain control over the infected system, often going unnoticed by traditional security tools.
+
+**Example**: A rootkit may hide other malware that captures keystrokes or monitors network traffic, giving attackers a continuous presence on the compromised system.
 
 ---
+
 
 **<span class="lo-21">3.1.</span> Computer network security threats**
 ## Network Attacks
@@ -126,12 +141,13 @@ Malware that provides unauthorized access to a computer system.
 - DNS spoofing
 
 ---
-
 **<span class="lo-21">3.1.</span> Computer network security threats**
 
 **Network Attacks:**
 ## Distributed Denial of Service (DDoS)
-An attack that overwhelms a system with traffic from multiple sources.
+A type of attack that floods a target system, such as a server, website, or network, with an overwhelming amount of traffic from multiple sources, rendering the target inaccessible to legitimate users. DDoS attacks typically involve a botnet of compromised devices controlled by the attacker, which send massive amounts of data to exhaust the target’s resources or bandwidth.
+
+**Example**: In 2016, the Dyn DNS provider was hit by a massive DDoS attack, which impacted popular websites like Twitter, Reddit, and Netflix, making them temporarily unavailable to users.
 
 ---
 
@@ -139,23 +155,30 @@ An attack that overwhelms a system with traffic from multiple sources.
 
 **Network Attacks:**
 ## Man-in-the-Middle (MitM) attacks
-An attack where the attacker secretly relays and alters communication between two parties.
+An attack where the attacker secretly intercepts and possibly alters communication between two parties who believe they are communicating directly. This interception allows the attacker to capture sensitive information, such as login credentials or financial data, and potentially inject malicious content into the communication. MitM attacks are often executed in unsecured or public networks.
+
+**Example**: An attacker intercepts data between a user and a banking website on a public Wi-Fi network, capturing login information and account details.
 
 ---
 
 **<span class="lo-21">3.1.</span> Computer network security threats**
 
 **Network Attacks:**
-## SQL injection
-An attack that inserts malicious SQL code into application queries.
+## SQL Injection
+An attack that involves injecting malicious SQL code into an application’s query to manipulate the database. By exploiting vulnerabilities in input fields (e.g., login forms), attackers can bypass authentication, retrieve unauthorized data, modify data, or even delete critical information. SQL injection attacks pose a significant threat to applications that handle sensitive user data.
+
+**Example**: An attacker inputs malicious code into a login form, bypassing authentication and gaining unauthorized access to a database of user accounts on a website.
 
 ---
 
 **<span class="lo-21">3.1.</span> Computer network security threats**
 
 **Network Attacks:**
-## DNS spoofing
-An attack that redirects traffic to a malicious website by corrupting DNS data.
+## DNS Spoofing
+An attack where the attacker corrupts the Domain Name System (DNS) data to redirect traffic from legitimate websites to malicious ones. By altering DNS records, attackers can reroute traffic to fraudulent sites that appear legitimate, allowing them to steal sensitive information like usernames, passwords, and financial data. DNS spoofing attacks are especially effective for phishing schemes.
+
+**Example**: Users trying to access their bank’s website are redirected to a fake, look-alike page where attackers capture their login credentials.
+
 
 ---
 
@@ -166,34 +189,42 @@ An attack that redirects traffic to a malicious website by corrupting DNS data.
 - Insider threats
 
 ---
-
 **<span class="lo-21">3.1.</span> Computer network security threats**
 
 **Unauthorized Access:**
 ## Hacking
-Unauthorized access to computer systems or networks.
+The act of gaining unauthorized access to computer systems, networks, or digital assets. Hackers may use various techniques, such as exploiting software vulnerabilities, using brute force attacks, or leveraging stolen credentials to infiltrate a system. The intent of hacking can range from data theft and espionage to system disruption or financial gain.
+
+**Example**: A hacker exploits a weak password to gain access to an organization's confidential files and downloads sensitive data.
 
 ---
 
 **<span class="lo-21">3.1.</span> Computer network security threats**
 
 **Unauthorized Access:**
-## Zero-Day exploits
-Attacks that exploit previously unknown vulnerabilities.
+## Zero-Day Exploits
+Attacks that target previously unknown vulnerabilities in software or hardware, which have not yet been patched by the vendor. Since these vulnerabilities are unknown to the developers, they are especially dangerous, as there is no existing defense. Zero-day exploits are often highly valuable and are quickly weaponized by attackers to gain unauthorized access or control over systems.
+
+**Example**: An attacker discovers an unreported vulnerability in a popular operating system and uses it to compromise thousands of devices before a security patch is issued.
 
 ---
 
 **<span class="lo-21">3.1.</span> Computer network security threats**
 
 **Unauthorized Access:**
-## Insider threats
-Security risks originating from within the organization.
+## Insider Threats
+Security risks that originate from individuals within the organization, such as employees, contractors, or partners. Insider threats may arise from malicious intent, such as theft or sabotage, or from unintentional actions, such as accidentally sharing confidential information. Insiders have an advantage due to their knowledge of internal systems, making their actions harder to detect.
+
+**Example**: A disgruntled employee with access to sensitive customer data sells it to unauthorized third parties.
 
 ---
 
 **<span class="lo-21">3.1.</span> Computer network security threats**
-## Social Engineering
-Manipulating people into divulging confidential information or performing actions.
+
+**Social Engineering**
+The manipulation of people into divulging confidential information, granting access, or performing actions that compromise security. Social engineering exploits human psychology, often relying on trust, fear, or urgency. Attackers may pose as trusted entities to trick individuals into revealing sensitive data, such as passwords, or performing actions that bypass security protocols.
+
+**Example**: A phishing email posing as a message from IT support requests that users reset their passwords on a fake website, where attackers capture their credentials.
 
 ---
 
@@ -214,7 +245,7 @@ Manipulating people into divulging confidential information or performing action
 
 **<span class="lo-21">3.1.</span> Computer network security threats**
 ### Assignment Part 3
-## Group discusion
+## Group discussion
 Discuss and analyze various network security threats and their potential impacts.
 
 ---
