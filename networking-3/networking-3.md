@@ -13,7 +13,7 @@ title: Networking Computers 3
 ---
 
 ### Recap
-## Do the recap quiz on Teams
+## Quiz on Teams (15 min)
 
 ---
 
