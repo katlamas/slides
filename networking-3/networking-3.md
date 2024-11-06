@@ -237,16 +237,11 @@ The manipulation of people into divulging confidential information, granting acc
 
 ---
 
-**<span class="lo-21">3.1.</span>** Computer network security threats: **Concept**
-
-![w:720](https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png)
-
----
 
 **<span class="lo-21">3.1.</span> Computer network security threats**
 ### Assignment Part 3
 ## Group discussion
-Discuss and analyze various network security threats and their potential impacts.
+Carry out a group discussion where each of you selects a security threat a computer network may encounter, carry out some basic research to find a security threats as a group, and divide these among you for further exploration. Carry out some further research individually and now return back to the group to - define the security threat, explain what kind of damage could be caused and also a remedial measure to prevent it. 
 
 ---
 
