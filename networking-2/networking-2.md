@@ -485,5 +485,5 @@ Take screenshots of the process
 
 ---
 
-### Task 3:
+### Task 3 (Extension):
 ## Configure a VPN
