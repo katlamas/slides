@@ -250,26 +250,10 @@ Discuss and analyze various network security threats and their potential impacts
 
 ---
 
-## <span class="lo-22">3.2.</span>
-## Install and configure network security software
-![bg right:44%](img/network-os.png)
-
----
-
 **<span class="lo-22">3.2.</span> Install and configure network security software**
-## Key Concepts
-- Perimeter Defense
-- Data Protection
-- Access Management
-- Threat Detection and Response
 
----
-
-**<span class="lo-22">3.2.</span> Install and configure network security software**
-## Perimeter Defense
-- Firewalls
-- Intrusion Prevention Systems (IPS)
-- Network monitoring and analysis tools
+## Network Security Software and Utilities
+To ensure a computer network is secure, it is essential to install and configure various software tools and utilities that protect against unauthorized access, data breaches, and malware. Key components include firewalls, anti-malware programs, and encryption utilities that enhance network security when in use.
 
 ---
 
@@ -277,53 +261,29 @@ Discuss and analyze various network security threats and their potential impacts
 
 **Perimeter Defense**
 ## Firewalls
-Software or hardware that monitors and controls incoming and outgoing network traffic.
+Firewalls are either software or hardware devices that monitor and control incoming and outgoing network traffic based on predetermined security rules. They act as a barrier between trusted internal networks and untrusted external networks, blocking potentially harmful traffic and preventing unauthorized access.
+
+**Example**: Configuring firewall rules to allow only specific IP addresses to access sensitive systems in a corporate network.
 
 ---
 
 **<span class="lo-22">3.2.</span> Install and configure network security software**
 
 **Perimeter Defense**
-## Intrusion Prevention Systems (IPS)
-Systems that monitor network traffic for suspicious activity and take action to prevent threats.
+## Anti-Malware
+Anti-malware software is designed to detect, prevent, and remove malicious software like viruses, ransomware, spyware, and worms. Regular scans and real-time protection capabilities help prevent malware from compromising devices and the network.
 
----
-
-**<span class="lo-22">3.2.</span> Install and configure network security software**
-
-**Perimeter Defense**
-## Network monitoring and analysis tools
-Software that tracks network performance and identifies potential security issues.
-
----
-
-**<span class="lo-22">3.2.</span> Install and configure network security software**
-## Data Protection
-- End-to-end encryption
-- Data Loss Prevention (DLP)
+**Example**: Using antivirus programs to scan for and quarantine suspicious files before they can infect the network.
 
 ---
 
 **<span class="lo-22">3.2.</span> Install and configure network security software**
 
 **Data Protection**
-## End-to-end encryption
-A method of secure communication that prevents third-parties from accessing data.
+## End-to-End Encryption
+End-to-end encryption is a method that secures data by encrypting it on the sender’s side and decrypting it only on the recipient’s side. This ensures that data is protected from unauthorized access while being transmitted over the network, as only authorized parties with the encryption key can read the data.
 
----
-
-**<span class="lo-22">3.2.</span> Install and configure network security software**
-
-**Data Protection**
-## Data Loss Prevention (DLP)
-Tools and processes that ensure sensitive data is not lost, misused, or accessed by unauthorized users.
-
----
-
-**<span class="lo-22">3.2.</span> Install and configure network security software**
-## Access Management
-- Virtual Private Networks (VPNs)
-- Access control systems
+**Example**: Implementing end-to-end encryption on messaging platforms to protect users' private conversations from eavesdropping.
 
 ---
 
@@ -331,47 +291,29 @@ Tools and processes that ensure sensitive data is not lost, misused, or accessed
 
 **Access Management**
 ## Virtual Private Networks (VPNs)
-Secure, encrypted connections over a less secure network.
+VPNs create a secure, encrypted connection over a less secure network, such as the internet. VPNs help ensure that data transmitted between a device and a network is protected from unauthorized access, particularly useful for remote workers connecting to a corporate network.
 
----
-
-**<span class="lo-22">3.2.</span> Install and configure network security software**
-
-**Access Management**
-## Access control systems
-Systems that manage and control user access to network resources.
-
----
-
-**<span class="lo-22">3.2.</span> Install and configure network security software**
-## Threat Detection and Response
-- Anti-malware software
-- Security Information and Event Management (SIEM) systems
+**Example**: Employees use VPNs to securely access company resources from home, ensuring data remains encrypted and private.
 
 ---
 
 **<span class="lo-22">3.2.</span> Install and configure network security software**
 
 **Threat Detection and Response**
-## Anti-malware software
-Programs designed to prevent, detect, and remove malicious software.
+## Security Information and Event Management (SIEM) Systems
+SIEM systems provide real-time analysis of security alerts generated by network hardware and applications. By aggregating and analyzing security data across an organization, SIEMs help identify and respond to potential security incidents before they cause harm.
+
+**Example**: SIEM tools alert IT teams to unusual login patterns, enabling immediate action to prevent possible breaches.
+
 
 ---
 
 **<span class="lo-22">3.2.</span> Install and configure network security software**
-
-**Threat Detection and Response**
-## Security Information and Event Management (SIEM) systems
-Tools that provide real-time analysis of security alerts generated by network hardware and applications.
-
----
-
-**<span class="lo-22">3.2.</span> Install and configure network security software**
-### Firewall Configuration
+### Task 2 Firewall Configuration
 ## Do a basic firewall configuration in Cisco Packet Tracer
-Follow the steps on the Teams document, and take screenshots.
+Follow the steps on the Teams document.
 
 ---
 
 ### Assignment
-## Complete the assignment document on Teams
+## Finish the assignment document on Teams
