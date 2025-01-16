@@ -59,7 +59,7 @@ Key Units of Study (continued):
 
 5. **Understanding Legislation and Ethical Conduct:** Cyber laws, standards, and ethics.
 
-6. **Professional Skills and Behaviours:** Digital identity, security clearance, and career planning.
+6. **Professional Skills and Behaviours:** Digital identity, security clearance, and career planning. Professional Development Plan.
 
 ---
 
