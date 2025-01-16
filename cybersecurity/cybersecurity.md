@@ -1,7 +1,7 @@
 ---
 theme: custom
 paginate: true
-marp: false
+marp: true
 title: Lorem Ipsum
 style: |
   section.textauto {
@@ -106,7 +106,7 @@ Tools and Support for Success
 - **Support Available:**
   - Access to learning materials from NCFE and external resources such as:
     - National Cyber Security Centre: [ncsc.gov.uk](https://ncsc.gov.uk).
-    - Centre for Internet Security: [cisecurity.org](https://cisecurity.org).
+    - Cisco Net Academy: [netacad.com](https://www.netacad.com/).
 
 ---
 
