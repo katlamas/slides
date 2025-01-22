@@ -124,7 +124,7 @@ What We Expect from You:
 ### Tutors and Time
 
 - Manoj Nanda: manoj.nanda@rhacc.ac.uk
-- Anthony Cox : anthony.cox@rhacc.ac.uk
-- Catalina Polanco : catalina.polanco@rhacc.ac.uk
+- Anthony Cox: anthony.cox@rhacc.ac.uk
+- Catalina Polanco: catalina.polanco@rhacc.ac.uk
 
 Friday : 9:30 - 12 : 00  / 12:30 - 15 : 00
