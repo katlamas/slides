@@ -56,8 +56,6 @@ title: Python Course Overview
   - No specific prior skills required.
   - A Level 3 qualification is recommended for a better foundation.
 
-- **Registration**: At the center’s discretion.
-
 ------
 
 ### **Key Content Areas**
