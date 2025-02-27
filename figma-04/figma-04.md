@@ -11,47 +11,44 @@ title: Figma Week 3 - Information Architecture and Wireframing
 ---
 
 ## Learning Outcomes
-- Organize content using sitemaps and user flows
-- Develop low-fidelity wireframes
-- Build interactive prototypes with user interactions, transitions, and animations
+- Organize content using **sitemaps** and **user flows**
+- Develop **low-fidelity** **wireframes**
+- Build interactive **prototypes** with user interactions, transitions, and animations
 
 ---
 
-## Introduction to Information Architecture
-- What is Information Architecture (IA)?
+## Information Architecture
+**What is Information Architecture (IA)?**
   - Organizing content logically and intuitively.
   - Ensures users can easily navigate and find information.
-- Why is IA important in UX Design?
+
+**Why is IA important in UX Design?**
   - Enhances usability and user experience.
 
 ---
 
-## What are Sitemaps and User Flows?
-- Sitemap:
-  - A visual representation of a website's hierarchical structure.
-  - Shows navigation paths and content organization.
-- User Flow:
-  - Illustrates the steps a user takes to complete a task.
-  - Helps design intuitive navigation.
+## Sitemaps and User Flows
+
+![bg right](https://uibundle.s3.amazonaws.com/images/product-image-15423682228683-flowchart-kit-for-figma-4.png)
 
 ---
 
-## Examples of Sitemaps and User Flows
+## Sitemaps
+- A visual representation of a website's hierarchical structure.
+- Shows navigation paths and content organization.
+![bg right:60% contain](https://s3-alpha.figma.com/hub/file/2923466847/4672b812-041b-453d-ac41-8453e6c9a878-cover.png)
 
 ---
 
-## Low-Fidelity Wireframes
-**What are Wireframes?**
-  - Basic layouts without detailed design elements.
-  - Focus on functionality and content placement.
-
-**Why use Low-Fidelity Wireframes?**
-  - Quick iteration and feedback.
-  - Emphasis on user experience over visual design.
+## User Flows
+- Illustrates the steps a user takes to complete a task.
+- Helps design intuitive navigation.
+![bg right:60% contain](https://s3-alpha.figma.com/hub/file/3816483218/8dffabe8-a420-4c98-8a3d-8e16e8fdb5a2-cover.png)
 
 ---
 
 ## Wireframes
+![bg right:60%](https://mir-s3-cdn-cf.behance.net/project_modules/1400/56ee4e129063167.6163854e62212.jpeg)
 
 ---
 
@@ -70,12 +67,13 @@ title: Figma Week 3 - Information Architecture and Wireframing
 ## Low-Fidelity vs. High-Fidelity Wireframes
 
 **Low-Fidelity Wireframes:**
-Simple sketches focusing on layout and content placement.
-Quick to produce and easy to modify.
+- Basic layouts without detailed design elements.
+- Focus on functionality and content placement.
+- Quick to produce and easy to modify.
 
 **High-Fidelity Wireframes:**
-Detailed representations with precise spacing, annotations, and sometimes actual content.
-Closer to the final design but more time-consuming to create.
+- Detailed representations with precise spacing, annotations, and sometimes actual content.
+- Closer to the final design but more time-consuming to create.
 
 ---
 
