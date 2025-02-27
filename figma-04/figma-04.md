@@ -27,7 +27,7 @@ title: Figma Week 3 - Information Architecture and Wireframing
 
 ---
 
-## Sitemaps and User Flows
+## Sitemaps & User Flows
 
 ![bg right](https://uibundle.s3.amazonaws.com/images/product-image-15423682228683-flowchart-kit-for-figma-4.png)
 
@@ -53,17 +53,6 @@ title: Figma Week 3 - Information Architecture and Wireframing
 ---
 
 **Wireframes**
-## Importance of Wireframing
-
-**Clarifies Structure:** Helps in organizing content and functionality before the design phase.
-
-**Facilitates Communication:** Serves as a tool for discussion among stakeholders, designers, and developers.
-
-**Identifies Usability Issues:** Allows early detection of potential navigation and interface problems.
-
----
-
-**Wireframes**
 ## Low-Fidelity vs. High-Fidelity Wireframes
 
 **Low-Fidelity Wireframes:**
@@ -74,6 +63,17 @@ title: Figma Week 3 - Information Architecture and Wireframing
 **High-Fidelity Wireframes:**
 - Detailed representations with precise spacing, annotations, and sometimes actual content.
 - Closer to the final design but more time-consuming to create.
+
+---
+
+**Wireframes**
+## Importance of Wireframing
+
+**Clarifies Structure:** Helps in organizing content and functionality before the design phase.
+
+**Facilitates Communication:** Serves as a tool for discussion among stakeholders, designers, and developers.
+
+**Identifies Usability Issues:** Allows early detection of potential navigation and interface problems.
 
 ---
 
