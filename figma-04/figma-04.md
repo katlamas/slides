@@ -75,7 +75,7 @@ Include a sitemap, user flow, and at least three linked pages.
 - Interactive prototype demonstrating user flow.
 
 ---
-
+### Building Wireframes
 ## Instructions
 1. Brainstorm the app's purpose and target users.
 2. Create a sitemap outlining the main navigation.
@@ -86,7 +86,7 @@ Include a sitemap, user flow, and at least three linked pages.
 7. Upload their wireframes and prototypes for assessment.
 
 ---
-
+### Building Wireframes
 ## Peer Review and Feedback
 - Exchange wireframes with another pair.
 - Provide feedback on:
