@@ -55,14 +55,22 @@ title: Figma Week 3 - Information Architecture and Wireframing
 **Wireframes**
 ## Low-Fidelity vs. High-Fidelity Wireframes
 
+![bg right](https://cdn.sanity.io/images/599r6htc/regionalized/b97a498c569597f2afeb3d1800e59e7c9746c85a-1600x1200.png)
+
+---
 **Low-Fidelity Wireframes:**
 - Basic layouts without detailed design elements.
 - Focus on functionality and content placement.
 - Quick to produce and easy to modify.
 
+![bg right:60%](https://cdn.sanity.io/images/599r6htc/regionalized/f0ec70acead2ddd5c5c52f876fa0713bae07d003-1600x1200.png)
+
+---
 **High-Fidelity Wireframes:**
 - Detailed representations with precise spacing, annotations, and sometimes actual content.
 - Closer to the final design but more time-consuming to create.
+
+![bg right:60%](https://s3-alpha.figma.com/hub/file/1537775293/3bc9a04f-b9e4-4fa4-83bd-0f365f5dfe24-cover.png)
 
 ---
 
@@ -117,11 +125,25 @@ title: Figma Week 3 - Information Architecture and Wireframing
 
 **Keep It Simple:** Avoid unnecessary details that can clutter the wireframe.
 
-**Use Placeholders:** Indicate where images, videos, or other media will be placed.
+**Use Placeholders:** Indicate where images, videos, or other media will be placed with boxes.
 
 **Be Consistent:** Maintain uniformity in design elements and spacing.
 
 **Annotate Clearly:** Provide notes to explain functionality and interactive elements.
+
+**Use two fonts max:**  Limit yourself to two fonts to make the hierarchy clear.
+
+---
+
+**Wireframes**
+## Consider screen size
+Three questions that might drastically influence your wireframe or versions of your wireframe include:
+
+**Supported devices:** Your design adapts to support desktop and mobile.
+
+**Screen orientation:** Depending on if you’re looking at the design in portrait or landscape, some things might need to shift and resize.
+
+**Context of use:** If a specific feature in your product is more geared to desktop use, consider cutting it from the mobile version upfront.
 
 ---
 
@@ -141,7 +163,7 @@ title: Figma Week 3 - Information Architecture and Wireframing
 
 https://www.figma.com/templates/wireframe-kits/
 
-In pairs, create a wireframe for a mobile app or website.
+Create a wireframe for your mobile app or website.
 
 Include a sitemap, user flow, and at least three linked pages.
 
@@ -153,7 +175,6 @@ Include a sitemap, user flow, and at least three linked pages.
 ---
 
 ## Instructions
-Start by brainstorming the app's purpose and target users. Then:
 1. Create a sitemap outlining the main navigation.
 2. Sketch user flows for key tasks (e.g., signup, purchase).
 3. Build wireframes for at least three linked screens.
@@ -164,129 +185,87 @@ Start by brainstorming the app's purpose and target users. Then:
 
 **1. Create a Sitemap Outlining the Main Navigation**
 ## 1.1. Open Figma and Create a New Project
-  - Go to [Figma](https://www.figma.com) and log in.
-  - Click on **New File** to create a new project.
-  - Rename the project to “Sitemap and Wireframes”.
 ---
 
 **1. Create a Sitemap Outlining the Main Navigation**
 ## 1.2. Set up a Sitemap Structure
-  - Use the **Frame Tool (F)** to create boxes representing each page (e.g., Home, About, Services, Contact).
-  - Arrange these boxes hierarchically to represent the website’s structure.
-  - Use **Lines (L)** or **Connectors** from the toolbar to link parent and child pages.
-  - Label each box with the page name using the **Text Tool (T)**.
-  - Group related pages to create logical sections (e.g., under “Services”, add “Consulting”, “Development”).
 ---
 
 **1. Create a Sitemap Outlining the Main Navigation**
 ## 1.3. Style and Organize the Sitemap
-  - Use consistent colors and font sizes for better readability.
-  - Align boxes neatly using the **Align and Distribute** tools in the right panel.
-  - Organize layers in the **Layers Panel** to keep the sitemap clean and navigable.
-
 ---
 
 **2. Sketch User Flows for Key Tasks**
 ## 2.1. Identify Key Tasks and User Goals
-  - Define the main tasks users will perform (e.g., Signing up, Purchasing a product).
-  - List the steps required to complete each task.
 
 ---
 
 **2. Sketch User Flows for Key Tasks**
 ## 2.2. Create User Flow Diagrams
-  - In Figma, use the **Frame Tool (F)** to create screens for each step in the user journey.
-  - Arrange the frames in a logical flow from start to finish.
-  - Connect each frame with **Arrows** to show the navigation path.
-  - Label each connection with the action (e.g., “Click Signup”, “Enter Details”, “Submit”).
 
 ---
 
 **2. Sketch User Flows for Key Tasks**
 ## 2.3. Visualize Decision Points
-  - Use **Diamonds** or **Decision Nodes** to represent choices (e.g., Successful login vs. Error).
-  - Link to corresponding next steps (e.g., Redirect to Dashboard or Show Error Message).
 
 ---
 
 **2. Sketch User Flows for Key Tasks**
 ## 2.4. Review and Optimize User Flows
-  - Test the flow for logical consistency and ease of navigation.
-  - Simplify steps where possible to reduce user friction.
 
 ---
 
 **3. Build Wireframes for At Least Three Linked Screens**
 ## 3.1. Select a Device Frame
-  - In Figma, click on **Frame Tool (F)** and select a device preset (e.g., iPhone 13, Desktop 1440px).
-  - Create at least three frames for the main screens (e.g., Homepage, Signup Page, Dashboard).
 
 ---
 
 **3. Build Wireframes for At Least Three Linked Screens**
 ## 3.2. Create a Layout Using Grids
-  - Click on a frame and go to the right panel under **Layout Grid**.
-  - Set up a grid system (e.g., 12-column grid for desktop, 4-column for mobile).
-  - This helps maintain alignment and consistent spacing.
 
 ---
 
 **3. Build Wireframes for At Least Three Linked Screens**
 ## 3.3. Add Placeholder Content
-  - Use **Rectangles (R)** and **Circles (O)** as placeholders for images and buttons.
-  - Add text using the **Text Tool (T)** to label sections like headers, navigation, and content.
-  - Keep the wireframes low-fidelity by avoiding detailed styling.
 
 ---
 
 **3. Build Wireframes for At Least Three Linked Screens**
 ## 3.4. Organize UI Components
-  - Group related elements (e.g., Navbar, Footer) to maintain consistency across screens.
-  - Reuse components using **Components and Instances** to ensure uniformity.
 
 ---
 
 **4. Connect Screens to Create a Clickable Prototype**
 ## 4.1. Switch to Prototype Mode
-  - In the top-right corner, switch from **Design** to **Prototype** mode.
 
 ---
 
 **4. Connect Screens to Create a Clickable Prototype**
 ## 4.2. Link Interactive Elements
-  - Select the interactive element (e.g., Button or Link).
-  - Click on the blue circle on the right edge and drag it to the target screen.
-  - Set the interaction (e.g., “On Click” → “Navigate to” → [Target Screen]).
 
 ---
 
 **4. Connect Screens to Create a Clickable Prototype**
 ## 4.3. Define Transitions and Animations
-  - In the right panel, select the transition type (e.g., “Slide In”, “Fade In”).
-  - Adjust duration and easing for smooth animations.
 
 ---
 
 **4. Connect Screens to Create a Clickable Prototype**
 ## 4.4 Organise elements 
-- Name layers and frames clearly for easier navigation.
-- Group related components (e.g., Header, Footer, Buttons) for cleaner organization.
 
 ---
 
 ## 5. Preview the Prototype
-  - Click on **Present** (top right corner) to see the interactive prototype.
-  - Test the flow to ensure all links and interactions work as intended.
 
 ---
 
 ## Peer Review and Feedback
-Exchange wireframes with another pair.
+Exchange wireframes with someone.
 
 Provide feedback on:
-  - Usability and clarity of user flow.
-  - Consistency and layout.
-  - Navigation and interaction design.
+- Usability and clarity of user flow.
+- Consistency and layout.
+- Navigation and interaction design.
 
 ---
 
