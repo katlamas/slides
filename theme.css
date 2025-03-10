@@ -5,7 +5,7 @@
 @import 'default';
 
 :root {
-  background-color: #EAEBED;
+  background-color: #ffd4fa;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -143,6 +143,16 @@ section.learning-objectives p span:first-child {
 
 .lo-23 {
   background-color: #026C7C;
+  /* color: #234; */
+}
+
+.lo-24 {
+  background-color: #1647c3;
+  /* color: #234; */
+}
+
+.lo-25 {
+  background-color: #ff00ff;
   /* color: #234; */
 }
 
