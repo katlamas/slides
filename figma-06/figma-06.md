@@ -1,7 +1,7 @@
 ---
 theme: custom
 paginate: true
-marp: true
+marp: false
 title: Figma - Week 5
 ---
 
@@ -9,13 +9,13 @@ title: Figma - Week 5
 
 ---
 
-## 1. Introduction
+## Introduction
 **🔹 What is visual design?**  
 **🔹 Why UI elements matter?**  
 
 ---
 
-## 2. Visual Design Principles
+## Visual Design Principles
 **🎨 Core principles:**  
 - **Contrast:** Highlights key elements.  
 - **Alignment:** Keeps layouts structured.  
@@ -36,82 +36,11 @@ title: Figma - Week 5
 
 ---
 
-## 3. Designing UI Components in Figma
+## Designing UI Components in Figma
 **🖌️ Essential UI Components:**  
 - **Buttons:** Size, shape, hover effects  
 - **Forms:** Input fields, dropdowns, checkboxes  
 - **Icons:** Consistency & simplicity  
-
----
-
-## 4. Hands-on Practice
-**Choosing a Color Scheme**Individual Exercise (10 min)  
-**👩‍💻 Design a button with different states:**  
-- Default  
-- Hover  
-- Disabled  
-
----
-
-## 5. Group Activity
-**Choosing a Color Scheme**Redesign a Simple UI Form (20 min)  
-**📌 Work in pairs to improve a basic login form:**  
-- Apply contrast, spacing, alignment.  
-- Add accessibility features.  
-- Use color theory for branding.  
-
----
-
-## 6. Mini Design Style Guide
-**📋 Create a small style guide in Figma:**  
-- Define typography (Headings, Body, Buttons)  
-- Set color palette (Primary, Secondary, Neutral)  
-- Establish spacing & grid system  
-
----
-
-## 7. Build Design Systems in Figma
-## What is a Design System?  
-A collection of reusable components and guidelines that ensure consistency in design and development.  
-
----
-
-**7. Build Design Systems in Figma**
-## Key Components:  
-- **Styles:** Color palettes, typography, spacing, and effects.  
-- **Components:** Buttons, form elements, icons, and other UI elements.  
-- **Documentation:** Guidelines on usage, accessibility, and best practices.  
-
----
-
-**7. Build Design Systems in Figma**
-## Benefits:  
-- Streamlines the design process.  
-- Enhances collaboration between designers and developers.  
-- Maintains a cohesive user experience across platforms.  
-
----
-
-**7. Build Design Systems in Figma**
-## Figma Features for Design Systems:  
-- **Team Libraries:** Share styles and components across projects.  
-- **Components:** Create reusable elements with overrides.  
-- **Styles:** Define consistent text, color, and effect styles.  
-
-**🔗 [Figma Design Systems Guide](https://help.figma.com/hc/en-us/sections/23536356509975-Build-design-systems)**  
-
----
-
-## 8. Wrap-Up & Resources
-**📚 Key Takeaways:**  
-- Visual hierarchy improves UI clarity.  
-- Consistency creates a better UX.  
-- Figma enables fast prototyping.  
-
-**🔗 Further Learning:**  
-- [Figma Design Guides](https://www.figma.com/resources/)  
-- [Typography & UI](https://material.io/design/typography/)  
-- [Color Accessibility](https://contrastchecker.com/)
 
 ---
 
@@ -346,13 +275,28 @@ The modern color wheel originates from Isaac Newton’s **1704 book _Opticks_**.
 ## 7 Harmonious Color Schemes
 Different schemes create visual appeal based on relationships between colors.
 
+![bg right contain](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fd2jv9003bew7ag.cloudfront.net%2Fuploads%2FColor-Harmony-Schemes-Image-via-Msbixler-weebly-com.jpg&f=1&nofb=1&ipt=f6295f4b97a6ec2c65d5cd066dba51e85f2af7ac68a332e77dda07ade8a50356&ipo=images)
+
+---
+
+**7 Harmonious Color Schemes**
+
 1. **Analogous** – Three adjacent colors on the color wheel.
 2. **Monochromatic** – Variations of a single color (e.g., shades and tints of blue).
 3. **Complementary** – Two opposite colors (e.g., red/green, blue/orange).
 4. **Split-Complementary** – A base color and two adjacent to its complement.
+
+![bg right contain](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fd2jv9003bew7ag.cloudfront.net%2Fuploads%2FColor-Harmony-Schemes-Image-via-Msbixler-weebly-com.jpg&f=1&nofb=1&ipt=f6295f4b97a6ec2c65d5cd066dba51e85f2af7ac68a332e77dda07ade8a50356&ipo=images)
+
+---
+
+**7 Harmonious Color Schemes**
+
 5. **Triadic** – Three evenly spaced colors (e.g., red, yellow, blue).
 6. **Tetradic** – Two complementary color pairs forming a rectangle.
 7. **Square** – Four evenly spaced colors on the wheel.
+
+![bg right contain](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fd2jv9003bew7ag.cloudfront.net%2Fuploads%2FColor-Harmony-Schemes-Image-via-Msbixler-weebly-com.jpg&f=1&nofb=1&ipt=f6295f4b97a6ec2c65d5cd066dba51e85f2af7ac68a332e77dda07ade8a50356&ipo=images)
 
 ---
 
@@ -598,3 +542,43 @@ Figma provides tools to refine and apply color schemes.
 - **Explore Figma’s color meaning library**
 - **Use Figma’s color wheel generator**
 - **Leverage accessibility resources for inclusive designs**
+
+---
+
+## Build Design Systems in Figma
+## What is a Design System?  
+A collection of reusable components and guidelines that ensure consistency in design and development.  
+
+---
+
+**Build Design Systems in Figma**
+## Key Components:  
+- **Styles:** Color palettes, typography, spacing, and effects.  
+- **Components:** Buttons, form elements, icons, and other UI elements.  
+- **Documentation:** Guidelines on usage, accessibility, and best practices.  
+
+---
+
+**Build Design Systems in Figma**
+## Benefits:  
+- Streamlines the design process.  
+- Enhances collaboration between designers and developers.  
+- Maintains a cohesive user experience across platforms.  
+
+---
+
+**Build Design Systems in Figma**
+## Figma Features for Design Systems:  
+- **Team Libraries:** Share styles and components across projects.  
+- **Components:** Create reusable elements with overrides.  
+- **Styles:** Define consistent text, color, and effect styles.  
+
+**🔗 [Figma Design Systems Guide](https://help.figma.com/hc/en-us/sections/23536356509975-Build-design-systems)**  
+
+---
+
+### Mini Design Style Guide
+**📋 Create a small style guide in Figma:**  
+- Define typography (Headings, Body, Buttons)  
+- Set color palette (Primary, Secondary, Neutral)  
+- Establish spacing & grid system  
