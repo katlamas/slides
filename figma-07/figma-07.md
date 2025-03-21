@@ -90,9 +90,9 @@ Once you create an interaction, use the **Interaction details modal** to configu
 
 **C.** **Destination:** Defines where the interaction ends. This could be another screen in the prototype, or an overlay that appears above the current screen. Not all interactions have destinations—for example, the Back trigger automatically returns to the previous frame.
 **D.** **Animation settings:** Determine how the prototype moves from one frame to the other.
-State management: Click to reset object properties and states when navigating in and across frames.
-**E.** **Add action:** Add another action to the same trigger.
-**F.** Close the **Interaction details** modal.
+**E.** **State management:** Click to reset object properties and states when navigating in and across frames.
+**F.** **Add action:** Add another action to the same trigger.
+**G.** Close the **Interaction details** modal.
 
 ---
 
@@ -128,19 +128,19 @@ A single object can have:
 
 The animation settings determine how the prototype moves from one frame to the other.
 
-1. **Animation:** The animation is how the prototype transitions from one frame to the next, such as push, slide, or dissolve.
+**A.** **Animation:** The animation is how the prototype transitions from one frame to the next, such as push, slide, or dissolve.
 
-2. **Direction:** For certain animation types (such as move in or push), you can set the direction controls which way you want the transition to move in. Choose between left, right, down, or up.
+**B.** **Direction:** For certain animation types (such as move in or push), you can set the direction controls which way you want the transition to move in. Choose between left, right, down, or up.
 
-3. **Animate matching layers:** Check this box to apply the Smart animate transition to any matching layers.
+**C.** **Animate matching layers:** Check this box to apply the Smart animate transition to any matching layers.
 
 ---
 
-4. **Easing and spring animation:** Easing determines the acceleration of the transition between a starting frame and its destination.
+**D.** **Easing and spring animation:** Easing determines the acceleration of the transition between a starting frame and its destination.
 
-5. **Duration:** Duration controls how long it takes, in milliseconds (ms), to complete the transition. Choose a duration between 1ms and 10000ms (10 seconds).
+**E.** **Duration:** Duration controls how long it takes, in milliseconds (ms), to complete the transition. Choose a duration between 1ms and 10000ms (10 seconds).
 
-6. Preview the animation.
+**F.** Preview the animation.
 
 ---
 
