@@ -434,3 +434,190 @@ Congratulations! You’ve created a loading animation with just a few frames. If
 ---
 
 ![bg contain](https://help.figma.com/hc/article_attachments/24802509742999)
+
+---
+
+## Prototype scroll and overflow behavior
+
+---
+
+Set how scrolling and panning works in your prototypes to replicate user interactions, such as:
+
+- Scroll up and down a long page of content
+- Scroll left and right to view different elements in a slider
+- Pan or scroll in any direction, like in an interactive map
+- Fix objects like navigation bars and menus to one position on the page while scrolling
+- Create “sticky objects” that stay in place at the top of the frame once you scroll past them
+
+---
+
+In order to use scrolling in your Figma prototypes, you must:
+
+- Prepare frames for scrolling: Make sure content extends beyond the bounds of the frame’s dimensions.
+- Apply scroll overflow to frame: Define if your frame will have vertical, horizontal, both, or no scrolling.
+- Apply scroll position to the objects within frame: Define how objects in your frame behave when you scroll past them. - They can scroll with the parent frame, stay in a fixed position, or stick to the top of their parent frame.
+
+Once you’ve set up scrolling, you can also consider preserving or resetting scroll position when navigating between multiple frames.
+
+---
+
+## Prepare frames for scrolling
+
+In order to add scrolling behavior to a frame, the frame must have content that extends beyond the bounds of the frame.
+
+Think of it like any webpage—when you browse on your phone, you can only see the content that fits the dimensions of your screen. However, there is “hidden” content that exists beyond what you see on your screen that you can only see with scrolling.
+
+---
+
+## Extend content beyond frame dimensions
+
+To resize a frame:
+
+- Select the frame you want to update.
+- Open the Design panel in the right sidebar.
+- Hover over the frame's edge until the cursor appears.
+- Drag the bounding box to resize the frame.
+
+To ensure that each object still sits within the selected frame, check the Layers section of the left navigation panel. Child objects are nested beneath their parent frame.
+
+---
+
+![bg contain](https://help.figma.com/hc/article_attachments/26978261589911)
+
+---
+
+## Clip content
+
+You can hide any content that extends beyond the bounds of a frame with Clip content.
+
+- Select the frame you want to update.
+- Open the Design tab in the right properties panel.
+- In the Layout section, check the box next to Clip content.
+
+---
+
+![bg contain](https://help.figma.com/hc/article_attachments/26978254304535)
+
+---
+
+## Apply scroll overflow to frames
+
+Scroll overflow defines how users can interact with content that extends beyond a frame’s dimensions.
+
+You can only apply overflow behavior to frames. This applies to frames that are directly on the canvas (top-level frames), as well as frames nested within other frames or layers.
+
+---
+
+To apply scroll overflow to a frame:
+
+1. Select a frame.
+2. Open the Prototype tab in the right properties panel.
+3. In the Scroll behavior section, select the Overflow dropdown. Choose from:
+- No scrolling
+- Horizontal
+- Vertical
+- Both directions
+
+---
+
+![bg contain](https://help.figma.com/hc/article_attachments/26978261594263)
+
+---
+
+## Vertical
+
+Vertical scrolling allows users to swipe or scroll up and down. Use this behavior to mimic scrolling down a long website, or page of content within an app.
+
+![](https://help.figma.com/hc/article_attachments/13321748595991)
+
+---
+
+## Horizontal
+
+Horizontal scrolling allows users to swipe or scroll left and right, while maintaining their vertical position. Use this to create sliders for content, like products, galleries, and libraries.
+
+![](https://help.figma.com/hc/article_attachments/13321750794903)
+
+---
+
+## No scrolling
+
+No scrolling prevents users from scrolling in any direction. Content that extends beyond the bounds of the frame will not be viewable.
+
+---
+
+## Both directions
+
+Both directions (horizontal and vertical) lets users navigate in any direction, like when viewing a map or enlarged image.
+
+![](https://help.figma.com/hc/article_attachments/19855785533335)
+
+---
+
+## Apply scroll position to objects within a frame
+
+Scroll position defines how layers in a frame behave when users scroll past them. You can only apply one scroll position to each layer.
+
+1. Select an object, group, or component. The object must be on a frame that has scroll overflow applied.
+2. Open the Prototype tab in the right properties panel.
+3. In the Scroll behavior section, select the Position dropdown. Choose from:
+- Scroll with parent
+- Fixed
+- Sticky
+
+---
+
+![bg contain](https://help.figma.com/hc/article_attachments/26978254308247)
+
+---
+
+## Scroll with parent
+
+Objects that scroll with parent move up and down the frame as you scroll. Use this behavior to mimic the behavior of scrolling up and down longer pages of content. 
+
+![](https://help.figma.com/hc/article_attachments/13321952490647)
+
+---
+
+## Fixed
+
+Fixed objects don’t move, even as you scroll up and down. For example, use this option to fix a status bar to the top of the device, or fix a menu to the bottom of a frame.
+
+You cannot assign a fixed scroll position to any objects in a frame with auto layout, unless the object has absolute position applied.
+
+![](https://help.figma.com/hc/article_attachments/13321956295447)
+
+---
+
+When you set an object to fixed, Figma will move it above the other layers in the frame and label them as Fixed in the Layers section of the left navigation panel. It's not possible to position scrolling objects above fixed layers.
+
+![](https://help.figma.com/hc/article_attachments/26978261598871)
+
+---
+
+## Sticky
+
+Apply sticky scroll position to any object within a frame that has vertical scrolling.
+
+Sticky objects will scroll at first, but become fixed once its top edge reaches the top of its parent frame. (If you scroll up again, the object will unstick and move down the parent frame.)
+
+![](https://help.figma.com/hc/article_attachments/13322051524119)
+
+---
+
+If the sticky object is nested within another layer in a frame, it stays within its direct parent’s bounds. This means that when the direct parent layer is scrolled out of view, the sticky object continues scrolling with its parent.
+
+![](https://help.figma.com/hc/article_attachments/18926153090967)
+
+---
+
+Check the Layers section in the left navigation panel to see how sticky objects will stack when scrolling. Any layers below a sticky object will scroll behind it, and any layers above a sticky object will scroll in front of it. To change the order in which your objects stack for sticky scroll, change their order in the Layers panel.
+
+---
+
+## Preserve and reset scroll position
+
+When your prototype contains multiple pages or screens, you can choose to preserve scroll position or reset scroll position between frames.
+
+- Preserve scroll position: Maintain the user’s scroll position when they transition between frames
+- Reset scroll position: Reset the user’s scroll position when they transition between frames
