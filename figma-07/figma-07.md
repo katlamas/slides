@@ -83,16 +83,16 @@ You can create interactions from multiple objects at once. This can help you sav
 
 Once you create an interaction, use the **Interaction details modal** to configure the following:
 
-1. **Trigger:** Defines what type of interaction will cause the prototype to advance forward, such as a mouse click or touch gesture.
-2. **Action:** Defines what type of event happens when a user interacts with the hotspot, such as moving to another frame, or engaging an overlay.
+**A.** **Trigger:** Defines what type of interaction will cause the prototype to advance forward, such as a mouse click or touch gesture.
+**B.** **Action:** Defines what type of event happens when a user interacts with the hotspot, such as moving to another frame, or engaging an overlay.
 
 ---
 
-3. **Destination:** Defines where the interaction ends. This could be another screen in the prototype, or an overlay that appears above the current screen. Not all interactions have destinations—for example, the Back trigger automatically returns to the previous frame.
-4. **Animation settings:** Determine how the prototype moves from one frame to the other.
+**C.** **Destination:** Defines where the interaction ends. This could be another screen in the prototype, or an overlay that appears above the current screen. Not all interactions have destinations—for example, the Back trigger automatically returns to the previous frame.
+**D.** **Animation settings:** Determine how the prototype moves from one frame to the other.
 State management: Click to reset object properties and states when navigating in and across frames.
-5. **Add action:** Add another action to the same trigger.
-6. Close the **Interaction details** modal.
+**E.** **Add action:** Add another action to the same trigger.
+**F.** Close the **Interaction details** modal.
 
 ---
 
@@ -214,10 +214,6 @@ Prototype faster by copying interaction details and pasting them on other object
 
 ---
 
-## Create Engaging UI Components: A Figma Animation Tutorial
-
----
----
 
 ## Create a loading animation in Figma
 
